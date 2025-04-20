@@ -1,0 +1,15 @@
+.search-jobs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,250px);
+    gap: 35px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.image{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

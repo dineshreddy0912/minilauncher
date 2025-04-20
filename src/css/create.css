@@ -1,0 +1,41 @@
+.input input,.input select,.input button{
+    height: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.input textarea{
+    height: 180px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.input input{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.input button{
+    width: 300px;
+    align-self: center;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: white;
+    transition: .25s;
+}
+.input button:hover{
+    background-image: linear-gradient(45deg,purple,#A0E7E5);
+    color: #fff;
+}
+.input{
+    margin-top: 80px;
+    background-color: #fff;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.create-main{
+    background-image: linear-gradient(45deg,purple,#A0E7E5);
+}
